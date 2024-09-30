@@ -1,0 +1,25 @@
+[project]
+name = "pylandmarker"
+version = "0.1.0"
+description = "MediaPipe-based toolkit for landmark localization"
+authors = [
+    {name = "Anatolii Medvedev", email = "aamedvedev@itmo.ru"},
+]
+dependencies = [
+    "black==22.10.0",
+    "flake8==7.1.1",
+    "isort==5.13.2",
+    "numpy>=1.26.4",
+    "mediapipe>=0.10.15",
+    "opencv-python>=4.10.0.84",
+    "pillow>=10.4.0",
+    "pre-commit>=3.8.0",
+    "pytest>=8.3.3",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "BSD 3-Clause"}
+
+
+[tool.pdm]
+distribution = false
