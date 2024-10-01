@@ -41,6 +41,10 @@ python -m pytest
 
 ## Documentation
 
+In progress.
+
+## Citation
+
 ```bash
 @software{pylandmarker,
     title = {landmarker},
